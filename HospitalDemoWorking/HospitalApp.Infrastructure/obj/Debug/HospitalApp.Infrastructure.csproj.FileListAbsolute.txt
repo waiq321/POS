@@ -1,0 +1,15 @@
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\HospitalApp.Infrastructure.dll.config
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\HospitalApp.Infrastructure.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\HospitalApp.Infrastructure.pdb
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\HospitalApp.Core.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\HospitalApp.Core.pdb
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\obj\Debug\HospitalApp.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\obj\Debug\HospitalApp.Infrastructure.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Infrastructure\obj\Debug\HospitalApp.Infrastructure.pdb
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Infrastructure\obj\Debug\HospitalApp.Infrastructure.csprojResolveAssemblyReference.cache
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Infrastructure\obj\Debug\HospitalApp.Infrastructure.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Infrastructure\obj\Debug\HospitalApp.Infrastructure.pdb

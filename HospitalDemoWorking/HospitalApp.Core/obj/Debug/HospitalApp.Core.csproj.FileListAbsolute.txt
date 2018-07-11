@@ -1,0 +1,8 @@
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Core\bin\Debug\HospitalApp.Core.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Core\bin\Debug\HospitalApp.Core.pdb
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.csprojResolveAssemblyReference.cache
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.pdb
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.csprojResolveAssemblyReference.cache
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.pdb

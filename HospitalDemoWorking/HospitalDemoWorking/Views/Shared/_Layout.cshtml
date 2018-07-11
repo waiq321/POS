@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title </title>
+
+    @Styles.Render("~/Content/css")
+
+
+    <style type="text/css">
+
+        .page-header {
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+    @using Microsoft.AspNet.Identity
+    <div id="hoeapp-wrapper" class="hoe-hide-lpanel container" hoe-device-type="desktop">
+        <header id="hoe-header" hoe-lpanel-effect="shrink">
+            <div class="hoe-left-header">
+                <a href="#"><i class="fa fa-home"></i><span>Main Menu</span></a>
+                <span class="hoe-sidebar-toggle"><a href="#"></a></span>
+            </div>
+
+            <div class="hoe-right-header" hoe-position-type="relative">
+                <span class="hoe-sidebar-toggle"><a href="#"></a></span>
+                <ul class="left-navbar">
+                    <li class="dropdown hoe-rheader-submenu message-notification">Point Of Sale</li>
+                </ul>
+
+                <ul class="right-navbar">
+                    <li class="dropdown hoe-rheader-submenu hoe-header-profile">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span>
+                                @*@Html.Partial("_LoginPartial")*@
+                                @if (Request.IsAuthenticated)
+                                {
+                                    @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                                }
+                                else
+                                {
+                                    @Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+                                }
+                                <i class="fa fa-angle-down"></i>
+                            </span>
+                        </a>
+                        @if (Request.IsAuthenticated)
+                        {
+                            <ul class="dropdown-menu ">
+                                <li><a href="#"><i class="fa fa-user"></i>Change Password</a></li>
+
+                                <li><a href="#"><i class="fa fa-power-off"></i>Logout</a></li>
+                            </ul>
+                        }
+                    </li>
+
+                </ul>
+
+            </div>
+        </header>
+        <div id="hoeapp-container" hoe-color-type="lpanel-bg2" hoe-lpanel-effect="shrink">
+            <aside id="hoe-left-panel" hoe-position-type="absolute">
+
+                <ul class="nav panel-list">
+
+                    <li class="active">
+                        <a href="javascript:void(0)">
+                            <i class="fa fa-tachometer"></i>
+                            <span class="menu-text">Dashboard</span>
+                            <span class="selected"></span>
+                        </a>
+                    </li>
+
+                    <li class="hoe-has-menu">
+                        <a href="javascript:void(0)">
+                            <i class="fa fa-files-o"></i>
+                            <span class="menu-text">Admin Management</span>
+                            <span class="selected"></span>
+                        </a>
+                        <ul class="hoe-sub-menu">
+                            <li>
+                                <a href="../Branches/Index">
+                                    <span class="menu-text">Branches</span>
+                                    <span class="selected"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../ItemCategories/Index">
+                                    <span class="menu-text">Item Category</span>
+                                    <span class="selected"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../ItemSubCategories/Index">
+                                    <span class="menu-text">Item Sub Category</span>
+                                    <span class="selected"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../ItemManufacturers/Index">
+                                    <span class="menu-text">Manufacturers</span>
+                                    <span class="selected"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../Customers/Index">
+                                    <span class="menu-text">Customers</span>
+                                    <span class="selected"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <span class="menu-text">Items</span>
+                                    <span class="selected"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </aside>
+            <section id="main-content">               
+                <div class="inner-content">    
+                    
+                        <div class="panel theme-panel">
+
+                            <div class="panel-body">
+                                @RenderBody()
+                            </div>
+                        </div>                    
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <div id="divMsg-wrapper">
+        <div id="divMsg">
+            <span class="icon-close" onclick="closeMessageBox()"></span>
+            <div class="divfriendlyMsg"></div>
+            <div class="divErrorMsg"></div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/script")
+
+    @Scripts.Render("~/bundles/modernizr")
+
+    <script>
+        $(document).ready(function () {
+            $.fn.bootstrapBtn = $.fn.button.noConflict();
+        })
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

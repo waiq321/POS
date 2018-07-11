@@ -1,0 +1,118 @@
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalDemoWorking.dll.config
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalDemoWorking.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalDemoWorking.pdb
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Antlr3.Runtime.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\EntityFramework.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\EntityFramework.SqlServer.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalApp.Core.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalApp.Infrastructure.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Newtonsoft.Json.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Owin.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Helpers.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Mvc.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Optimization.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Razor.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.Razor.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\WebGrease.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalApp.Core.pdb
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalApp.Infrastructure.pdb
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\EntityFramework.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\EntityFramework.SqlServer.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Helpers.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Mvc.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Optimization.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Razor.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.Razor.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Newtonsoft.Json.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Antlr3.Runtime.pdb
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\obj\Debug\HospitalDemoWorking.csprojResolveAssemblyReference.cache
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\obj\Debug\HospitalDemoWorking.dll
+C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\HospitalDemoWorking\obj\Debug\HospitalDemoWorking.pdb
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalDemoWorking.dll.config
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalDemoWorking.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalDemoWorking.pdb
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Antlr3.Runtime.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\EntityFramework.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\EntityFramework.SqlServer.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalApp.Core.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalApp.Infrastructure.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.Core.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Cookies.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Facebook.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Google.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.OAuth.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Twitter.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Web.Infrastructure.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Newtonsoft.Json.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Owin.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Helpers.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Mvc.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Optimization.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Razor.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.Deployment.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.Razor.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\WebGrease.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalApp.Core.pdb
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\HospitalApp.Infrastructure.pdb
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\EntityFramework.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\EntityFramework.SqlServer.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Helpers.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Mvc.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Optimization.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.Razor.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.Deployment.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\System.Web.WebPages.Razor.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Newtonsoft.Json.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Antlr3.Runtime.pdb
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.Core.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Facebook.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Cookies.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.OAuth.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Google.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.Twitter.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\obj\Debug\HospitalDemoWorking.csprojResolveAssemblyReference.cache
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\obj\Debug\HospitalDemoWorking.dll
+E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalDemoWorking\obj\Debug\HospitalDemoWorking.pdb
