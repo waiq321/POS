@@ -6,3 +6,9 @@ C:\Users\Amir javaid\documents\visual studio 2013\Projects\HospitalDemoWorking\H
 E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.csprojResolveAssemblyReference.cache
 E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.dll
 E:\waqas\Projects\POS New\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.pdb
+E:\POS\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.dll
+E:\POS\HospitalDemoWorking\HospitalApp.Core\obj\Debug\HospitalApp.Core.pdb
+E:\POS\HospitalDemoWorking\HospitalApp.Core\bin\Debug\HospitalApp.Core.dll
+E:\POS\HospitalDemoWorking\HospitalApp.Core\bin\Debug\HospitalApp.Core.pdb
+E:\POS\HospitalDemoWorking\HospitalApp.Core\bin\Debug\System.Web.Mvc.dll
+E:\POS\HospitalDemoWorking\HospitalApp.Core\bin\Debug\System.Web.Mvc.xml
