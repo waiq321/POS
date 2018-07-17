@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
-using HospitalDemoWorking.Models;
+using ERPWorking.Models;
 
-namespace HospitalDemoWorking.Controllers
+namespace ERPWorking.Controllers
 {
     [Authorize]
     public class AccountController : Controller

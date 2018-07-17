@@ -44,15 +44,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ERPAdminViewModels\Hospital.cs" />
-    <Compile Include="ERPAdminViewModels\IHospitalRepository.cs" />
+    <Compile Include="Voucher.cs" />
+    <Compile Include="ItemPromotion.cs" />
+    <Compile Include="ReturnSub.cs" />
+    <Compile Include="SaleSub.cs" />
+    <Compile Include="SaleMain.cs" />
+    <Compile Include="ReturnMain.cs" />
+    <Compile Include="ReceiveSub.cs" />
+    <Compile Include="ReceiveMain.cs" />
+    <Compile Include="POSub.cs" />
+    <Compile Include="POMain.cs" />
+    <Compile Include="POExpense.cs" />
+    <Compile Include="Manufacturer.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemCategorySub.cs" />
+    <Compile Include="ItemCategoryMain.cs" />
+    <Compile Include="ExpenseType.cs" />
+    <Compile Include="PartyType.cs" />
+    <Compile Include="Party.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Branch.cs" />
     <Compile Include="ERPAdminViewModels\ItemCatageoryViewModel.cs" />
-    <Compile Include="IItemCatageory.cs" />
-    <Compile Include="IStoreItemRepository.cs" />
-    <Compile Include="ItemCatageory.cs" />
-    <Compile Include="ItemType.cs" />
-    <Compile Include="ItemManufacturer.cs" />
-    <Compile Include="StoreItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

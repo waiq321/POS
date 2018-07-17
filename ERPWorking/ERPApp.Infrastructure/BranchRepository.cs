@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HospitalApp.Core.HospitalAdminGeneral
+namespace ERPApp.Infrastructure
 {
- public   interface IHospitalRepository
+ public   class BranchRepository
     {
-
-     
-
 
     }
 }

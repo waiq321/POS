@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace HospitalDemoWorking
+namespace ERPWorking
 {
     public class FilterConfig
     {

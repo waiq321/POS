@@ -15,6 +15,6 @@ E:\ERP\ERPWorking\ERPApp.Core\bin\Debug\ERPApp.Core.dll
 E:\ERP\ERPWorking\ERPApp.Core\bin\Debug\ERPApp.Core.pdb
 E:\ERP\ERPWorking\ERPApp.Core\bin\Debug\System.Web.Mvc.dll
 E:\ERP\ERPWorking\ERPApp.Core\bin\Debug\System.Web.Mvc.xml
-E:\ERP\ERPWorking\ERPApp.Core\obj\Debug\ERPApp.Core.csprojResolveAssemblyReference.cache
 E:\ERP\ERPWorking\ERPApp.Core\obj\Debug\ERPApp.Core.dll
 E:\ERP\ERPWorking\ERPApp.Core\obj\Debug\ERPApp.Core.pdb
+E:\ERP\ERPWorking\ERPApp.Core\obj\Debug\ERPApp.Core.csprojResolveAssemblyReference.cache

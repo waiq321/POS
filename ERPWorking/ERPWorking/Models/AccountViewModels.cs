@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace HospitalDemoWorking.Models
+namespace ERPWorking.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

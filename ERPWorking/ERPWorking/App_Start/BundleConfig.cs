@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace HospitalDemoWorking
+namespace ERPWorking
 {
     public class BundleConfig
     {

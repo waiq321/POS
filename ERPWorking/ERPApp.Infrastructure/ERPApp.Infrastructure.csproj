@@ -51,13 +51,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ERPAdminRepository\HospitalRepository.cs" />
-    <Compile Include="ItemCatageoryRepository.cs" />
-    <Compile Include="ItemTypeRepository.cs" />
+    <Compile Include="BranchRepository.cs" />
+    <Compile Include="Migrations\201807151437395_Initial.cs" />
+    <Compile Include="Migrations\201807151437395_Initial.Designer.cs">
+      <DependentUpon>201807151437395_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StoreContext.cs" />
-    <Compile Include="StoreInitilizeDB.cs" />
-    <Compile Include="StoreItemRepository.cs" />
+    <Compile Include="ERPContext.cs" />
+    <Compile Include="ERPInitilizeDB.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -68,6 +70,14 @@
       <Project>{8e702458-a581-43a3-b91f-1371c4bf4cb1}</Project>
       <Name>ERPApp.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ERPAdminRepository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201807151437395_Initial.resx">
+      <DependentUpon>201807151437395_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
