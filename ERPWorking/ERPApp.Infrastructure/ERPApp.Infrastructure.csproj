@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ERPApp.Infrastructure</RootNamespace>
     <AssemblyName>ERPApp.Infrastructure</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -51,7 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BranchRepository.cs" />
+    <Compile Include="ERPAdminRepository\CompanyRepository.cs" />
     <Compile Include="Migrations\201807151437395_Initial.cs" />
     <Compile Include="Migrations\201807151437395_Initial.Designer.cs">
       <DependentUpon>201807151437395_Initial.cs</DependentUpon>
@@ -60,6 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ERPContext.cs" />
     <Compile Include="ERPInitilizeDB.cs" />
+    <Compile Include="ViewModels\CompanyViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -71,9 +72,7 @@
       <Name>ERPApp.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ERPAdminRepository\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807151437395_Initial.resx">
       <DependentUpon>201807151437395_Initial.cs</DependentUpon>

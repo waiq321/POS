@@ -1,0 +1,68 @@
+﻿@model ERPApp.Infrastructure.ViewModels.CompanyViewModel
+@{
+    Layout = null;
+}
+
+ 
+@using (Html.BeginForm("AddCompanies", "Company", FormMethod.Post, new { onsubmit = "return SaveForm(this)" }))
+{
+    <div class="form-horizontal">
+        @Html.HiddenFor(X=>X.CompanyID)
+        <div class="form-group">
+            @Html.LabelFor(m => m.CompanyName,"Company Name", new { @class = "control-label col-sm-3" })
+
+            <div class="col-sm-7">
+                @Html.TextBoxFor(x => x.CompanyName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.CompanyName)
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Address, new { @class = "control-label col-sm-3" })
+
+            <div class="col-sm-7">
+                @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Address)
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.PhoneNo,"Phone No", new { @class = "control-label col-sm-3" })
+
+            <div class="col-sm-7">
+                @Html.TextBoxFor(x => x.PhoneNo, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.PhoneNo)
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.WebsiteUrl,"Web Site URL", new { @class = "control-label col-sm-3" })
+
+            <div class="col-sm-7">
+                @Html.TextBoxFor(x => x.WebsiteUrl, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.WebsiteUrl)
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            @Html.Label( "City", new { @class = "control-label col-sm-3" })
+
+            <div class="col-sm-7">
+                @Html.DropDownListFor(x=>x.CityID,new SelectList(Model.Cities,"Value","Text"), new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.CityID)
+            </div>
+
+        </div>
+
+        <div class="form-group text-center">
+<button type="submit" class="btn btn-primary ">Save</button>
+        </div>
+
+
+
+        </div>
+        }

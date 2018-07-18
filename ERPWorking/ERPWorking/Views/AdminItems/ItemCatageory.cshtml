@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "ItemCatageory";
+}
+
+<h2>ItemCatageory</h2>
+
+<table id="tableItemCatageory" class="display">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<link href="~/Content/datatable/css/jquery.dataTables.min.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.12.4.js"></script>
+<script src="~/Scripts/Datatable/jquery.dataTables.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            
+            $('#tableItemCatageory').dataTable({
+                "processing": true, // for show progress bar  
+                "serverSide": true, // for process server side  
+                "filter": true, // this is for disable filter (search box)  
+                "orderMulti": false, // for disable multiple column at once  
+                "pageLength": 5,
+
+                "ajax": {
+                    "url": "/AdminItems/ItemCatageory",
+                    "type": "GET",
+                    "datatype":"json"
+                },
+
+                "columns": [                   
+                  { "data": "ID", "name": "ID", "autoWidth": true },
+                  { "data": "CatageoryName", "name": "CatageoryName", "autoWidth": true },                   
+                ]
+            });
+        });
+    </script>
+        
+    

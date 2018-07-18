@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="page-header">Companies</h2>
+
+<a class="btn btn-success" style="margin-bottom:10px" onclick="PopUpForm('@Url.Action("AddCompanies","Company")')"><i class="fa fa-plus"></i> Add New   </a>
+
+<table id="tableCompanies" class="display table table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th>City</th>
+            <th>Company</th>
+            <th>Phone</th>
+            <th>Website Url</th>
+            <th>Address</th>
+            <th></th>
+        </tr>
+    </thead>
+
+</table>
+
+
+@section Scripts{
+
+    <script type="text/javascript">
+        var Popup,Datatabl
+        $(document).ready(function () {
+
+            Datatable = $('#tableCompanies').DataTable({
+
+                "ajax": {
+                    "url": "/Company/getata",
+                    "type": "GET",
+                    "datatype": "json"
+                },
+
+                "columns": [
+                  { "data": "CityName","width":"80px" },
+                  { "data": "CompanyName", "width": "140px" },
+                  { "data": "PhoneNo", "width": "80px" },
+                  { "data": "WebsiteUrl", "width": "120px" },
+                  { "data": "Address", "width": "200px" },
+                   { "data": "CompanyID" ,  "render" : function(data) {
+                       return "<a class='btn btn-default btn-sm' onclick=PopUpForm('@Url.Action("AddCompanies", "Company")/" + data + "') ><i class='fa fa-pencil'></i> Edit </a><a style='margin-left:4px' onclick=Delete("+data+") class='btn btn-danger btn-sm'><i class='fa fa-trash'></i> Delete </a>";
+
+                   },
+                       "orderable":false,
+                       "width":"150px"
+                   }
+
+                ],
+
+                "language": {
+                    "emptyTable":"No Data Found, Please click on <b>Add New</b> Button"
+                }
+            });
+        });
+
+
+        function PopUpForm(url){
+            var form=$('<div/>');
+            $.get(url).done(function(response){
+                form.html(response);
+
+                Popup= form.dialog({
+                    autoOpen: true,
+                    resizeable: false,
+                    title: 'Fill Company Detail',
+                    height: '600',
+                    width: 800,
+                    close: function () {
+                        Popup.dialog('destroy').remove();
+                    }
+                })
+
+            });
+        }
+
+        function SaveForm(form){
+
+            $.validator.unobtrusive.parse(form);
+            if ($(form).valid()) {
+                $.ajax({
+                    type:'Post',
+                    url:form.action,
+                    data:$(form).serialize(),
+                    success:function (data){
+                        if (data.success) {
+                            Popup.dialog('close')
+                            Datatable.ajax.reload();
+
+                            $.notify(data.message, {
+                                globalPosition: "top center",
+                                className:"success"
+                            })
+
+                        }
+                    }
+                });
+            }
+            return false;
+        }
+
+        function Delete(id) {
+            if (confirm("Are you sure you want to delete")) {
+                $.ajax({
+                    type: "POST",
+                    url:'@Url.Action("DeletCompanies", "Company")/'+id,
+                    success: function (data) {
+                        if (data.success) {
+                            Datatable.ajax.reload();
+
+
+                            $.notify(data.message, {
+                                globalPosition: "top center",
+                                className: "success"
+                            })
+                        }
+                    }
+
+                })
+            }
+
+        }
+
+        </script>
+    }
+

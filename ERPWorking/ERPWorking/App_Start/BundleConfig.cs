@@ -20,9 +20,10 @@ namespace ERPWorking
                          "~/Scripts/jquery-ui-1.12.1.min.js",
                          "~/Scripts/Datatable/jquery.dataTables.min.js" ,
                          "~/Scripts/Datatable/dataTables.bootstrap.min.js",                        
-                          "~/Scripts/hoe.js",
-                        "~/Scripts/Global.js"       
-                        
+                          "~/Scripts/hoe.js",                          
+                        "~/Scripts/Global.js",
+                        "~/Scripts/notify.min.js"
+
                         ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
