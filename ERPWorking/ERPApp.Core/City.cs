@@ -23,7 +23,7 @@ namespace ERPApp.Core
         [MaxLength(256)]
         public string ModifiedBy { get; set; }
         public DateTime? ModifiedDate { get; set; }
+        public virtual ICollection<Company> Branch { get; set; }
 
-        public virtual ICollection<Company> Company { get; set; }
     }
 }

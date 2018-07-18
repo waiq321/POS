@@ -23,7 +23,6 @@ namespace ERPApp.Infrastructure.ERPAdminRepository
 
         }
 
-
         public void Update(Company company)
         {
             using (ERPContext context = new ERPContext())
@@ -45,18 +44,7 @@ namespace ERPApp.Infrastructure.ERPAdminRepository
         }
 
 
-        public IEnumerable<SelectListItem> getCities(int? id)
-        {
-            using (ERPContext context = new ERPContext())
-            {
-                List<SelectListItem> _items = context.City.Select(x => new SelectListItem { Text = x.CityName, Value = x.CityId.ToString() }).ToList();
-
-                var insertCaption = new SelectListItem() { Value = null, Text = "---Select City---" };
-
-                _items.Insert(0, insertCaption);
-                return new SelectList(_items, "Value", "Text", id);
-            }
-        }
+      
 
         public IEnumerable<CompanyViewModel> getCompanies()
         {
@@ -90,6 +78,7 @@ namespace ERPApp.Infrastructure.ERPAdminRepository
         public CompanyViewModel GetCompanyByID(int id)
         {
             CompanyViewModel model = new CompanyViewModel();
+            CommonRepository objCommonRepository = new CommonRepository();
             using (ERPContext context = new ERPContext())
             {
                 var company = context.Company.Find(id);
@@ -98,7 +87,7 @@ namespace ERPApp.Infrastructure.ERPAdminRepository
                     model.CityID = company.CityId;
                     model.CompanyName = company.CompanyName;
                     model.PhoneNo = company.Phone;
-                    model.Cities = getCities(company.CityId);
+                    model.Cities = objCommonRepository.GetCities(true, company.CityId, "Select");
                     model.Address = company.Address;
                     model.WebsiteUrl = company.WebsiteURL;
                     model.CompanyID = company.CompanyId;

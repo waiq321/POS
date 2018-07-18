@@ -40,8 +40,6 @@ E:\ERP\ERPWorking\ERPApp.Infrastructure\bin\Debug\System.Web.Mvc.xml
 E:\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.csprojResolveAssemblyReference.cache
 E:\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.dll
 E:\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.pdb
-E:\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.Migrations.Initial.resources
-E:\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.csproj.GenerateResource.Cache
 E:\erp\ERP\ERPWorking\ERPApp.Infrastructure\bin\Debug\ERPApp.Infrastructure.dll.config
 E:\erp\ERP\ERPWorking\ERPApp.Infrastructure\bin\Debug\ERPApp.Infrastructure.dll
 E:\erp\ERP\ERPWorking\ERPApp.Infrastructure\bin\Debug\ERPApp.Infrastructure.pdb
@@ -60,3 +58,5 @@ E:\erp\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.cspr
 E:\erp\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.dll
 E:\erp\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.pdb
 E:\ERP\ERPWorking\ERPApp.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.Migrations.Initial.resources
+E:\ERP\ERPWorking\ERPApp.Infrastructure\obj\Debug\ERPApp.Infrastructure.csproj.GenerateResource.Cache

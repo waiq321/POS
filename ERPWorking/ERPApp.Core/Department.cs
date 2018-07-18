@@ -33,8 +33,7 @@ namespace ERPApp.Core
 
         public virtual ICollection<Employee> Employee { get; set; }
         public virtual ICollection<Item> Item { get; set; }
-        public virtual ICollection<ItemCategoryMain> ItemCategoryMain { get; set; }
-
+      
         public virtual ICollection<ItemPromotion> ItemPromotion { get; set; }
 
         public virtual ICollection<POMain> POMain { get; set; }

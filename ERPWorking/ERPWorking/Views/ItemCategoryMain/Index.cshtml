@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "Items Main Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="page-header">Item Main Categories</h2>
+
+
+<a class="btn btn-success" style="margin-bottom:10px" onclick="PopUpForm('@Url.Action("AddCategory","ItemCategoryMain")')"><i class="fa fa-plus"></i> Add New   </a>
+
+   <table id="tableCategories" class="display table table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Abbv</th>          
+            <th></th>
+        </tr>
+    </thead>
+
+</table>
+
+@section Scripts{
+
+    <script type="text/javascript">
+        var Popup,Datatabl
+        $(document).ready(function () {
+
+            Datatable = $('#tableCategories').DataTable({
+
+                "ajax": {
+                    "url": "/ItemCategoryMain/getata",
+                    "type": "GET",
+                    "datatype": "json"
+                },
+
+                "columns": [
+                  { "data": "CategoryName", "width": "80px" },
+                  { "data": "Abb", "width": "140px" },
+                   {
+                       "data": "CategoryId", "render": function (data) {
+                       return "<a class='btn btn-default btn-sm' onclick=PopUpForm('@Url.Action("AddCategory", "ItemCategoryMain")/" + data + "') ><i class='fa fa-pencil'></i> Edit </a><a style='margin-left:4px' onclick=Delete("+data+") class='btn btn-danger btn-sm'><i class='fa fa-trash'></i> Delete </a>";
+
+                   },
+                       "orderable":false,
+                       "width":"150px"
+                   }
+
+                ],
+
+                "language": {
+                    "emptyTable":"No Data Found, Please click on <b>Add New</b> Button"
+                }
+            });
+        });
+
+
+        function PopUpForm(url) {
+            
+            var form=$('<div/>');
+            $.get(url).done(function(response){
+                form.html(response);
+
+                Popup= form.dialog({
+                    autoOpen: true,
+                    resizeable: false,
+                    title: 'Add Item Main Category',
+                    height: '600',
+                    width: 800,
+                    close: function () {
+                        Popup.dialog('destroy').remove();
+                    }
+                })
+
+            });
+        }
+
+        function SaveForm(form){
+
+            $.validator.unobtrusive.parse(form);
+            if ($(form).valid()) {
+                $.ajax({
+                    type:'Post',
+                    url:form.action,
+                    data:$(form).serialize(),
+                    success:function (data){
+                        if (data.success) {
+                            Popup.dialog('close')
+                            Datatable.ajax.reload();
+
+                            $.notify(data.message, {
+                                globalPosition: "top center",
+                                className:"success"
+                            })
+
+                        }
+                    }
+                });
+            }
+            return false;
+        }
+
+        function Delete(id) {
+            if (confirm("Are you sure you want to delete")) {
+                $.ajax({
+                    type: "POST",
+                    url:'@Url.Action("DeletCategory", "ItemCategoryMain")/'+id,
+                    success: function (data) {
+                        if (data.success) {
+                            Datatable.ajax.reload();
+
+
+                            $.notify(data.message, {
+                                globalPosition: "top center",
+                                className: "success"
+                            })
+                        }
+                    }
+
+                })
+            }
+
+        }
+
+    </script>
+}

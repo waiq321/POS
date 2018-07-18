@@ -67,7 +67,6 @@
     <Compile Include="City.cs" />
     <Compile Include="Company.cs" />
     <Compile Include="Branch.cs" />
-    <Compile Include="ERPAdminViewModels\ItemCatageoryViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

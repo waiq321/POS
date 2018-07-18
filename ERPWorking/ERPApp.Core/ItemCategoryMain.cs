@@ -37,9 +37,7 @@ namespace ERPApp.Core
         public int BranchId { get; set; }        
         public Branch Branch { get; set; }
 
-        [ForeignKey("Department")]
-        public int DepartmentId { get; set; }
-        public Department Department { get; set; }
+       
         public virtual ICollection<Item> Item { get; set; }
         public virtual ICollection<ItemCategorySub> ItemCategorySub { get; set; }
     }

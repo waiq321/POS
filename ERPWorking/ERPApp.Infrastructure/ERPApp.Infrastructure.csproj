@@ -51,15 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ERPAdminRepository\CommonRepository.cs" />
+    <Compile Include="ERPAdminRepository\ItemCategoryMainRepository.cs" />
     <Compile Include="ERPAdminRepository\CompanyRepository.cs" />
-    <Compile Include="Migrations\201807151437395_Initial.cs" />
-    <Compile Include="Migrations\201807151437395_Initial.Designer.cs">
-      <DependentUpon>201807151437395_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201807181741262_Initial.cs" />
+    <Compile Include="Migrations\201807181741262_Initial.Designer.cs">
+      <DependentUpon>201807181741262_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ERPContext.cs" />
     <Compile Include="ERPInitilizeDB.cs" />
+    <Compile Include="ViewModels\ItemCategoryMainViewModel.cs" />
     <Compile Include="ViewModels\CompanyViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,10 +75,9 @@
       <Name>ERPApp.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201807151437395_Initial.resx">
-      <DependentUpon>201807151437395_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201807181741262_Initial.resx">
+      <DependentUpon>201807181741262_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

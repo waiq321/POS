@@ -175,8 +175,6 @@ E:\ERP\ERPWorking\ERPWorking\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.csprojResolveAssemblyReference.cache
 E:\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.dll
 E:\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.pdb
-E:\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.Migrations.Initial.resources
-E:\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.csproj.GenerateResource.Cache
 E:\erp\ERP\ERPWorking\ERPWorking\bin\ERPWorking.dll.config
 E:\erp\ERP\ERPWorking\ERPWorking\bin\ERPWorking.dll
 E:\erp\ERP\ERPWorking\ERPWorking\bin\ERPWorking.pdb
@@ -238,3 +236,5 @@ E:\erp\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.Migrations.Initial.resourc
 E:\erp\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.csproj.GenerateResource.Cache
 E:\erp\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.dll
 E:\erp\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.pdb
+E:\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.Migrations.Initial.resources
+E:\ERP\ERPWorking\ERPWorking\obj\Debug\ERPWorking.csproj.GenerateResource.Cache

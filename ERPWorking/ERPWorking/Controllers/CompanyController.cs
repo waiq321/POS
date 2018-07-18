@@ -21,8 +21,7 @@ namespace ERPWorking.Controllers
 
 
         public JsonResult getata()
-        {
-            rep.getCompanies();
+        {        
             return Json(new { data = rep.getCompanies() }, JsonRequestBehavior.AllowGet);
         }
 
@@ -32,9 +31,9 @@ namespace ERPWorking.Controllers
         {
             if (id ==0)
             {
-                CompanyViewModel model = new CompanyViewModel();
-                CompanyRepository repository = new CompanyRepository();
-                model.Cities = repository.getCities(null);
+                CompanyViewModel model = new CompanyViewModel();                
+                CommonRepository objCommonRepository = new CommonRepository();
+                model.Cities = objCommonRepository.GetCities(true,null,"Select");
                 return View(model);
             }
             else

@@ -42,6 +42,7 @@ namespace ERPApp.Core
 
 
         // Navigation Properties
+
         [ForeignKey("Cities")]
         public int CityId { get; set; }
         public City Cities { get; set; }
