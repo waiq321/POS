@@ -164,6 +164,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CompanyController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ItemCategorySubController.cs" />
     <Compile Include="Controllers\ItemCategoryMainController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -336,6 +337,8 @@
     <Content Include="Views\Company\AddCompanies.cshtml" />
     <Content Include="Views\ItemCategoryMain\AddCategory.cshtml" />
     <Content Include="Views\ItemCategoryMain\Index.cshtml" />
+    <Content Include="Views\ItemCategorySub\Index.cshtml" />
+    <Content Include="Views\ItemCategorySub\AddCategory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

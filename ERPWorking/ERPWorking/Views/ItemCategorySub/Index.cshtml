@@ -1,18 +1,18 @@
 ﻿
 @{
-    ViewBag.Title = "Items Main Categories";
+    ViewBag.Title = "Items Sub Categories";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<h2 class="page-header">Item Sub Categories</h2>
 
-<h2 class="page-header">Item Main Categories</h2>
 
-
-<a class="btn btn-success" style="margin-bottom:10px" onclick="PopUpForm('@Url.Action("AddCategory","ItemCategoryMain")')"><i class="fa fa-plus"></i> Add New   </a>
+<a class="btn btn-success" style="margin-bottom:10px" onclick="PopUpForm('@Url.Action("AddCategory","ItemCategorySub")')"><i class="fa fa-plus"></i> Add New   </a>
 
    <table id="tableCategories" class="display table table-bordered table-responsive">
     <thead>
         <tr>
-            <th>Category</th>
+            <th>Main Category</th>
+            <th>Sub Category</th>
             <th>Abbv</th>          
             <th></th>
         </tr>
@@ -29,17 +29,18 @@
             Datatable = $('#tableCategories').DataTable({
 
                 "ajax": {
-                    "url": "/ItemCategoryMain/getata",
+                    "url": "/ItemCategorySub/getata",
                     "type": "GET",
                     "datatype": "json"
                 },
 
                 "columns": [
                   { "data": "CategoryName", "width": "80px" },
+                  { "data": "SubCategoryName", "width": "80px" },
                   { "data": "Abb", "width": "140px" },
                    {
-                       "data": "CategoryId", "render": function (data) {
-                       return "<a class='btn btn-default btn-sm' onclick=PopUpForm('@Url.Action("AddCategory", "ItemCategoryMain")/" + data + "') ><i class='fa fa-pencil'></i> Edit </a><a style='margin-left:4px' onclick=Delete("+data+") class='btn btn-danger btn-sm'><i class='fa fa-trash'></i> Delete </a>";
+                       "data": "SubCategoryId", "render": function (data) {
+                       return "<a class='btn btn-default btn-sm' onclick=PopUpForm('@Url.Action("AddCategory", "ItemCategorySub")/" + data + "') ><i class='fa fa-pencil'></i> Edit </a><a style='margin-left:4px' onclick=Delete("+data+") class='btn btn-danger btn-sm'><i class='fa fa-trash'></i> Delete </a>";
 
                    },
                        "orderable":false,
@@ -64,7 +65,7 @@
                 Popup= form.dialog({
                     autoOpen: true,
                     resizeable: false,
-                    title: 'Add Item Main Category',
+                    title: 'Add Item Sub Category',
                     height: '600',
                     width: 800,
                     close: function () {
@@ -104,7 +105,7 @@
             if (confirm("Are you sure you want to delete")) {
                 $.ajax({
                     type: "POST",
-                    url:'@Url.Action("DeletCategory", "ItemCategoryMain")/'+id,
+                    url:'@Url.Action("DeletCategory", "ItemCategorySub")/'+id,
                     success: function (data) {
                         if (data.success) {
                             Datatable.ajax.reload();

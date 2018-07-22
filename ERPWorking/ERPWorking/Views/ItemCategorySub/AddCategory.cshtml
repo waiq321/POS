@@ -1,0 +1,47 @@
+﻿@model ERPApp.Infrastructure.ViewModels.ItemCategorySubViewModel
+
+@{
+    Layout = null;
+}
+
+    @using (Html.BeginForm("AddCategory", "ItemCategorySub", FormMethod.Post, new { onsubmit = "return SaveForm(this)" }))
+    {
+        @Html.AntiForgeryToken()
+        
+        <div class="form-horizontal">
+            @Html.HiddenFor(b => b.SubCategoryId)
+            @Html.ValidationSummary(true)
+            <div class="form-group">
+                @Html.Label("Main Category", new { @class = "control-label col-sm-3" })
+
+                <div class="col-sm-7">
+                    @Html.DropDownListFor(b => b.CategoryId, new SelectList(Model.Categories, "Value", "Text"), new { @class = "form-control" })
+                    @Html.ValidationMessageFor(b => b.CategoryId)
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.SubCategoryName,"Sub Category", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.SubCategoryName)
+                    @Html.ValidationMessageFor(model => model.SubCategoryName)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.Abb, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Abb)
+                    @Html.ValidationMessageFor(model => model.Abb)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+    
